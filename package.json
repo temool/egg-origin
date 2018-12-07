@@ -1,14 +1,17 @@
 {
   "name": "egg-origin",
   "version": "1.0.1",
-  "description": "an eggjs custom origin middleware",
+  "description": "an eggjs middleware of custom origin",
   "eggPlugin": {
     "name": "origin"
   },
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "eggjs",
+    "egg origin",
+    "egg-cors"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -35,10 +38,9 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
+    "app",
     "config",
-    "app"
+    "app.js"
   ],
   "ci": {
     "version": "8, 9"
