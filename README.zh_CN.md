@@ -53,17 +53,26 @@ exports.origin = {
 };
 ```
 
+## 配置插件
+```js
+// {app_root}/config/config.default.js
+exports.origin = {
+  whiteList: [http://foo.com', 'http://localhost:8080']
+};
+```
 ## 使用场景
 
-- Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
-尽可能描述详细。
-- How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+- 目前 egg-cors 存在一定的局限性：
+- 1、只能设置一个域名 或者 '*'，不能指定多个域名，维护一个白名单；
+- 2、设置成'*'时，前端请求带 withCredentials: true 参数时，还是会跨域。
+egg-origin 解决了以上问题，后期将会添加更多配置，是配置更灵活，满足不同的需求。
 
-## 详细配置
 
-请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
+<!-- ## 详细配置
 
-## 单元测试
+请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。 -->
+
+<!-- ## 单元测试 -->
 
 <!-- 描述如何在单元测试中使用此插件，例如 schedule 如何触发。无则省略。-->
 

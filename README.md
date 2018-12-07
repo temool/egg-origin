@@ -49,18 +49,21 @@ exports.origin = {
 };
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
+  see [config/config.default.js](config/config.default.js) for more detail.
 
-## Example
-exports.origin = {
-  whiteList: ['http://foo.com', 'http://localhost:8080']
-};
-<!-- example here -->
+  ## Example
+  ```js
+  // {app_root}/config/config.default.js
+  exports.origin = {
+    whiteList: [http://foo.com', 'http://localhost:8080']
+  };
+  ```
+  <!-- example here -->
 
-## Questions & Suggestions
+  ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/temool/egg-origin/issues).
+  Please open an issue [here](https://github.com/temool/egg-origin/issues).
 
-## License
+  ## License
 
-[MIT](LICENSE)
+  [MIT](LICENSE)

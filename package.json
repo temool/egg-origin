@@ -1,6 +1,6 @@
 {
   "name": "egg-origin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "an eggjs middleware of custom origin",
   "eggPlugin": {
     "name": "origin"
@@ -54,7 +54,7 @@
   "bugs": {
     "url": "https://github.com/temool/egg-origin/issues"
   },
-  "homepage": "https://github.com/temool/egg-origin#readme",
+  "homepage": "https://github.com/temool/egg-origin#README.zh_CN",
   "author": "temool",
   "license": "MIT"
 }
