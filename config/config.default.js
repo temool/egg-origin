@@ -5,6 +5,10 @@
  * @member Config#eggOrigin
  * @property {String} SOME_KEY - some description
  */
-exports.eggOrigin = {
+exports.cors = {
+  origin: [],
+};
 
+exports.origin = {
+  whiteList: [],
 };

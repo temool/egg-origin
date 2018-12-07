@@ -47,7 +47,7 @@ egg-origin 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.eggOrigin = {
+exports.origin = {
   enable: true,
   package: 'egg-origin',
 };
@@ -69,7 +69,7 @@ exports.eggOrigin = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg-origin issues](https://github.com/temool/egg-origin/issues) 异步交流。
 
 ## License
 
